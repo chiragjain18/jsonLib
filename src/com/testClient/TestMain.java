@@ -12,10 +12,10 @@ public class TestMain {
   public static void main(String[] args) {
     JsonLib j=new JsonLib();
     Address address=new Address("Gurgaon",123456,"street 23");
-    List<Project> projects=new ArrayList();
+    /*List<Project> projects=new ArrayList();
     projects.add(new Project("Insurance",123));
-    projects.add(new Project("Recharge",456));
-    Employee employee=new Employee("sumit",30,address,projects);
+    projects.add(new Project("Recharge",456));*/
+    Employee employee=new Employee("sumit",30,address);
     System.out.println(j.stringToJson(employee));
   }
 

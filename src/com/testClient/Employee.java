@@ -18,4 +18,10 @@ public class Employee {
     this.address = address;
     this.projects=projects;
   }
+
+  public Employee(String name, int age, Address address) {
+    this.empName = name;
+    this.age = age;
+    this.address = address;
+  }
 }
